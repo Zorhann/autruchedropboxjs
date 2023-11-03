@@ -1,0 +1,109 @@
+.main_color {
+    background-color: #F5F5F5;
+}
+
+.main_footer_color {
+    background-color: #222222;
+}
+
+.second_footer_color {
+    background-color: #5D7B84;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100wh;
+}
+
+.select-btn {
+    width: 36em;
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sBtn-text {
+    margin-left: 2em;
+    font-size: 0.7em;
+}
+
+.chevron {
+    transition: transform 0.3s;
+    margin-right: 2em;
+    font-size: 0.7em;
+}
+
+#menu-div {
+    width: 36em;
+    height: 22em;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.categorie-li {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.correspondance-li {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.categorie-li li, .correspondance-li li {
+    font-size: 0.7em;
+    width: 90%;
+    height: 100%;
+    text-align: left;
+}
+
+.categorie-li li {
+    margin-left: 2em;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.active .chevron {
+    transform: rotate(180deg);
+}
+
+.puma {
+    width: 36em;
+    height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4.5em;
+}
+
+.puma img {
+    height: 100%;
+    width: 60%;
+}
+
+.puma div {
+    display: flex;
+    flex-direction: column;
+}
