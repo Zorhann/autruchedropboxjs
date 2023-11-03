@@ -131,6 +131,21 @@ li {
     font-size: 0.7em;
 }
 
+.menufooter {
+    width: 100%;
+    height: 15em;
+}
+
+.menufooter a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+}
+
+.p-menu-footer {
+    font-size: 0.6em;
+}
+
 footer {
     width: 100%;
     height: 2.2em;
