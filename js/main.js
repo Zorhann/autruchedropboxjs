@@ -2,9 +2,8 @@ const menuButton = document.getElementById("menu-button");
 const menuDiv = document.getElementById("menu-div");
 
 menuButton.addEventListener("click", function() {
-    // Inverser la visibilité de la div en ajoutant ou en supprimant la classe "hidden"
+    // Ici on ajoute ou retire la classe hidden pour gérer l'affichage de la div
     menuDiv.classList.toggle("hidden");
-    // Ajouter ou supprimer la classe "active" à la div pour la rotation du chevron
+    // Ici on ajoute oue retire la classe active pour gérer l'animation de la fléche
     menuButton.classList.toggle("active");
-    menuDiv.style.maxHeight = menuDiv.style.maxHeight ? null : `${menuDiv.scrollHeight}px`;
-});
+})

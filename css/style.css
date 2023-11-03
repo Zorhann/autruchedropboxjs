@@ -93,6 +93,7 @@ li {
 .puma {
     width: 36em;
     height: 10em;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 4.5em;
@@ -106,4 +107,38 @@ li {
 .puma div {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.universdumuseum {
+    width: 100%;
+    height: 8.5em;
+    margin-top: 2em;
+}
+
+.universdumuseum img {
+    height: 70%;
+}
+
+.universdumuseum h6 {
+    color: white;
+}
+
+.universdumuseum span {
+    color: white;
+    margin-bottom: 0.6em;
+    font-size: 0.7em;
+}
+
+footer {
+    width: 100%;
+    height: 2.2em;
+}
+
+footer a {
+    font-size: 0.6em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
